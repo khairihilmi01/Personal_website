@@ -1,0 +1,14 @@
+
+.banner {
+    color: white;
+    opacity: 0.85;
+}
+
+.banner h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 3rem;
+}
+
+.container-fluid {
+    background-color: white;
+}
