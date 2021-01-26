@@ -12,3 +12,24 @@
 .container-fluid {
     background-color: white;
 }
+
+.container_about h2{
+    color: white;
+    opacity: 0.85;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 3rem;
+    /* border: 1px solid yellow; */
+}
+
+btn {
+    color: white;
+}
+
+.contact{
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.contact h5, p{
+    font-size: 0.80rem;
+}
