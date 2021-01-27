@@ -1,3 +1,6 @@
+/* .navigasi, .container{
+    border: 1px solid yellow;
+} */
 
 .banner {
     color: white;
@@ -7,6 +10,10 @@
 .banner h1 {
     font-family: 'Yusei Magic', sans-serif;
     font-size: 3rem;
+}
+
+.parallax-window {
+    height: 400px;
 }
 
 .container-fluid {
@@ -25,11 +32,17 @@ btn {
     color: white;
 }
 
-.contact{
-    color: white;
-    /* border: 1px solid white; */
-}
-
 .contact h5, p{
     font-size: 0.80rem;
 }
+
+.Myskills h1{
+    text-align: center;
+}
+/* .Myskills {
+    border: 1px solid red;
+}
+
+footer {
+    border: 1px solid red;
+} */
