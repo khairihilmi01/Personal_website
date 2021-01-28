@@ -3,38 +3,65 @@
 {%block content%}
 
 
-<div class="container my-4 p-4">
-    <h1>About Me</h1>
-    <div class="row gx-4 ">
-        <div class="col-sm-6 gy-sm-4">
-            <div class="card card-body h-100 p-3 border bg-light"><h5>What I Know</h5>
-                <hr>
-                <p>I know about Python language, SQL language, Postgres, HTML/CSS, basic of Django and JavaScript. <br>
-                I also understand a little about machine learning and data science. I ever try to learn about Power BI and Tableau for reporting information.
-                Besides that I also have the ability to operate software for design such as Adobe Illustrator and Photoshop</p>
-            </div>
+<div class="parallax-window d-flex align-items-center" data-parallax="scroll" data-image-src="{% static '/images/Landscape2.jpg'%}">
+    <div class="container text-center">
+        <h1 class="text-white">Know More About Me</h1>
+    </div>
+</div>
+
+<!-- Profil -->
+<div class="container pt-4">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col">
+            <h3>
+                Good Leadership, Good team work and self, Enthusiastic, Highly motivated, Responsible and Seek out new challenge.
+            </h3>
         </div>
-        <div class="col-sm-6 gy-sm-4">
-            <div class="card card-body h-100 p-3 border bg-light"><h5>How I Learn</h5>
-                <hr>
-                <p>I can learn anything by having and understand what is the final goals. I have to understand what tools are needed for learnings and prepare the steps to reach the goal quickly and precisely</p>
+
+            <img src="{% static '/images/Gambar_profil1.png'%}" class="card-img-top w-25" alt="..">
+    </div>
+</div>
+
+
+
+<!-- Akhir Profil -->
+
+
+<div class="programming bg-light py-4">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="col-sm-6 g-sm-4">
+                <div class="card card-body h-100 border bg-white"><h5>What I Know</h5>
+                    <hr>
+                    <p>I know about Python language, SQL language, Postgres, HTML/CSS, basic of Django and JavaScript. <br>
+                    I also understand a little about machine learning and data science. I ever try to learn about Power BI and Tableau for reporting information.
+                    Besides that I also have the ability to operate software for design such as Adobe Illustrator and Photoshop</p>
+                </div>
+            </div>
+            <div class="col-sm-6 gy-sm-4">
+                <div class="card card-body h-100 border bg-light"><h5>How I Learn</h5>
+                    <hr>
+                    <p>I can learn anything by having and understand what is the final goals. I have to understand what tools are needed for learnings and prepare the steps to reach the goal quickly and precisely</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-<div class="container-fluid bg-light py-3 text-center">
+<div class="container-fluid py-3 text-center">
     <h1>Education</h1>
     <div class="container w-50 p-4">
-        <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="d-flex flex-row mb-3">
             <div class="card" style="width: 18rem;">
                 <img src="{% static '/images/SMAN1.jpg'%}" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">SMA Negeri 1 Kota Solok</h5>
                 </div>
             </div>
-        </div>
+    </div>
+
         <div class="d-flex flex-row-reverse bd-highlight">
             <div class="card" style="width: 18rem;">
                 <img src="{% static '/images/IPB.jpg'%}" class="card-img-top" alt="...">
@@ -47,7 +74,7 @@
 </div>
 
 
-<div class="parallax-window d-flex align-items-center"" data-parallax="scroll" data-image-src="{% static '/images/Landscape1.jpg'%}">
+<div class="parallax-window d-flex align-items-center" data-parallax="scroll" data-image-src="{% static '/images/Landscape1.jpg'%}">
 </div>
 
 

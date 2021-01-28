@@ -13,7 +13,7 @@
 }
 
 .parallax-window {
-    height: 400px;
+    height: 600px;
 }
 
 .container-fluid {
@@ -25,7 +25,6 @@
     opacity: 0.85;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 3rem;
-    /* border: 1px solid yellow; */
 }
 
 btn {
@@ -39,10 +38,7 @@ btn {
 .Myskills h1{
     text-align: center;
 }
-/* .Myskills {
-    border: 1px solid red;
-}
 
-footer {
-    border: 1px solid red;
-} */
+.container h1 {
+    font-size: 5rem;
+}
